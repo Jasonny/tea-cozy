@@ -77,6 +77,8 @@ h4 {
 }
 
 
+
+
 /*-- Tea Section --*/
 
 #tea {
@@ -102,7 +104,36 @@ h4 {
 
 
 
-span {
+#tea span {
   text-align: center;
   padding-top: 10px
+}
+
+
+/*-- Locations Section --*/
+
+#locations {
+  padding-top: 70px;
+  height: 500px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+
+.site {
+  opacity: 1;
+  padding: 10px;
+  margin: 15px 20px;
+  background-color: black;
+  flex-basis: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h3,
+p {
+  text-align: center;
 }
